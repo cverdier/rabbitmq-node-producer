@@ -1,0 +1,17 @@
+{
+  "port": 9080,
+  "logger": {
+    "threshold": "debug",
+    "console": {
+      "level": "debug"
+    }
+  },
+  "producer": {
+    "exchange": "booking"
+  },
+  "rabbitmq": {
+    "host": "localhost:5672",
+    "user": "guest",
+    "password": "guest"
+  }
+}
